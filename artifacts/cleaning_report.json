@@ -1,0 +1,52 @@
+{
+ "raw_rows": 1067371,
+ "steps": [
+  {
+   "step": "exact duplicate lines",
+   "rows_removed": 34335,
+   "rows_left": 1033036
+  },
+  {
+   "step": "bad-debt adjustment invoices (A...)",
+   "rows_removed": 6,
+   "rows_left": 1033030
+  },
+  {
+   "step": "non-product stock codes (postage, fees, manual, samples)",
+   "rows_removed": 5436,
+   "rows_left": 1027594
+  },
+  {
+   "step": "price <= 0",
+   "rows_removed": 5988,
+   "rows_left": 1021606
+  },
+  {
+   "step": "cancellation invoices (C...) moved to the returns table",
+   "rows_removed": 17922,
+   "rows_left": 1003684
+  },
+  {
+   "step": "quantity <= 0 on non-cancellation lines (write-offs)",
+   "rows_removed": 0,
+   "rows_left": 1003684
+  },
+  {
+   "step": "lines without a Customer ID (kept for revenue totals only)",
+   "rows_removed": 226857,
+   "rows_left": 776827
+  }
+ ],
+ "cancellation_lines": 17922,
+ "guest_lines": 226857,
+ "guest_revenue": 2577915.07,
+ "guest_revenue_share_pct": 13.113125427348162,
+ "clean_sales_lines": 776827,
+ "customers": 5853,
+ "invoices": 36600,
+ "revenue": 17081128.72,
+ "start": "2009-12-01 07:45:00",
+ "end": "2011-12-09 12:50:00",
+ "return_lines_with_customer": 17592,
+ "invoice_revenue_cap_p99_9": 14180.440819999223
+}
