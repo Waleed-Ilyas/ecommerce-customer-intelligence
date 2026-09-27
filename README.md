@@ -2,7 +2,7 @@
 
 Turns 1M raw invoice lines from a real UK online retailer into customer segments, 6-month customer-lifetime-value (CLV) estimates, churn-risk scores and ready-to-export campaign lists, delivered as an interactive Streamlit app.
 
-**Live demo:** _added after deployment_ · **Stack:** Python, DuckDB (SQL cohorts), BG/NBD (lifetimes), LightGBM, scikit-learn, SHAP, MLflow, Streamlit, GitHub Actions
+**Live demo:** [https://ecommerce-customer-intelligence-gnheazzvqhklp9givzlygx.streamlit.app/](https://ecommerce-customer-intelligence-gnheazzvqhklp9givzlygx.streamlit.app/) · **Stack:** Python, DuckDB (SQL cohorts), BG/NBD (lifetimes), LightGBM, scikit-learn, SHAP, MLflow, Streamlit, GitHub Actions
 
 ![App overview](reports/figures/app_overview.png)
 
